@@ -1,0 +1,23 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_316_62)" filter="url(#filter0_d_316_62)">
+<path d="M33.9857 15.2807C33.9857 14.0516 33.8836 13.1547 33.6627 12.2246H19.2988V17.7721H27.7301C27.5602 19.1507 26.6423 21.2269 24.6024 22.622L24.5738 22.8077L29.1154 26.2455L29.43 26.2762C32.3198 23.6685 33.9857 19.8317 33.9857 15.2807Z" fill="#4285F4"/>
+<path d="M19.2988 29.897C23.4295 29.897 26.8971 28.5682 29.43 26.2762L24.6024 22.622C23.3105 23.5023 21.5766 24.1169 19.2988 24.1169C15.2532 24.1169 11.8195 21.5093 10.5954 17.905L10.416 17.9199L5.69359 21.4909L5.63184 21.6587C8.14762 26.5418 13.3152 29.897 19.2988 29.897Z" fill="#34A853"/>
+<path d="M10.5954 17.905C10.2725 16.9749 10.0855 15.9782 10.0855 14.9485C10.0855 13.9187 10.2725 12.9221 10.5784 11.992L10.5699 11.7939L5.78828 8.16553L5.63184 8.23824C4.59496 10.2646 4 12.5401 4 14.9485C4 17.3569 4.59496 19.6323 5.63184 21.6587L10.5954 17.905Z" fill="#FBBC05"/>
+<path d="M19.2988 5.78004C22.1716 5.78004 24.1094 6.99252 25.2143 8.00576L29.532 3.8866C26.8803 1.47824 23.4295 0 19.2988 0C13.3152 0 8.14762 3.35508 5.63184 8.23821L10.5784 11.992C11.8195 8.38775 15.2532 5.78004 19.2988 5.78004Z" fill="#EB4335"/>
+</g>
+<defs>
+<filter id="filter0_d_316_62" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_316_62"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_316_62" result="shape"/>
+</filter>
+<clipPath id="clip0_316_62">
+<rect width="30" height="30" fill="white" transform="translate(4)"/>
+</clipPath>
+</defs>
+</svg>

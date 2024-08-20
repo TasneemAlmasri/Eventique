@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "753028149683",
+    "project_id": "eventique-61824",
+    "storage_bucket": "eventique-61824.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753028149683:android:144f8e5a1e221decb8dbc6",
+        "android_client_info": {
+          "package_name": "com.example.eventique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753028149683-bksknqnrm2k79b6sg9mnfcrdf1k1siu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventique",
+            "certificate_hash": "67706ee1017dd5b735c5e6dd0c9fb14d17b45cf2"
+          }
+        },
+        {
+          "client_id": "753028149683-9qse9eg6iqhb3aremij5ddd99b6rkskb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqjsa7FhqrFqON5PFXm2aQEdoQCV1ksuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753028149683-9qse9eg6iqhb3aremij5ddd99b6rkskb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753028149683-t8m6m64fdvp231b45kuolrn2uq6l8kdh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eventique"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753028149683:android:f01651c01fb615deb8dbc6",
+        "android_client_info": {
+          "package_name": "com.example.eventique_company_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753028149683-ckq99pe7qhcfb5biri0rm864iufc08ur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eventique_company_app",
+            "certificate_hash": "67706ee1017dd5b735c5e6dd0c9fb14d17b45cf2"
+          }
+        },
+        {
+          "client_id": "753028149683-9qse9eg6iqhb3aremij5ddd99b6rkskb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqjsa7FhqrFqON5PFXm2aQEdoQCV1ksuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753028149683-9qse9eg6iqhb3aremij5ddd99b6rkskb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "753028149683-t8m6m64fdvp231b45kuolrn2uq6l8kdh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eventique"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

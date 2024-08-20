@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "268b705c-28b9-4159-b2cb-8b4dc313cacd",
+		"name": "EvenTique",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31457658"
+	},
+	"item": [
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "en",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ar_name",
+									"value": "اسم عربي",
+									"type": "text"
+								},
+								{
+									"key": "en_name",
+									"value": "en name",
+									"type": "text"
+								},
+								{
+									"key": "ar_description",
+									"value": "وصف عربي",
+									"type": "text"
+								},
+								{
+									"key": "en_description",
+									"value": "en des",
+									"type": "text"
+								},
+								{
+									"key": "images[0]",
+									"value": "dbdsjfbsdkfs",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "category_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "images[1]",
+									"value": "iiiiii",
+									"type": "text"
+								},
+								{
+									"key": "discounted_packages",
+									"value": "1",
+									"description": "ممكن تكون موجودة ممكن لا",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/services",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "en",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "price",
+									"value": "900",
+									"type": "text"
+								},
+								{
+									"key": "category_id",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "ar_name",
+									"value": "hh",
+									"type": "text"
+								},
+								{
+									"key": "en_name",
+									"value": "hhen",
+									"type": "text"
+								},
+								{
+									"key": "ar_description",
+									"value": "har",
+									"type": "text"
+								},
+								{
+									"key": "en_description",
+									"value": "hen",
+									"type": "text"
+								},
+								{
+									"key": "images[0]",
+									"value": "yyy",
+									"type": "text"
+								},
+								{
+									"key": "remove_images[0]",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "discounted_packages",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "_method",
+									"value": "PUT",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/services/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "show_one",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/services/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_service_activation",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "activation",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/services/1/update-activation",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services",
+								"1",
+								"update-activation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "locale",
+								"value": "ar",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/services",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"services"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}
